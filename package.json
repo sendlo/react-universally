@@ -23,7 +23,7 @@
     "start": "cross-env NODE_ENV=production node build/server",
     "test": "jest",
     "test:coverage": "jest --coverage",
-    "postinstall": "yarn run build"
+    "heroku-postbuild": "npm run build"
   },
   "lint-staged": {
     "*.js": [
